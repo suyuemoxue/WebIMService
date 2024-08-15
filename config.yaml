@@ -1,0 +1,31 @@
+# mysql数据库
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  db: webIM
+  user: root
+  password: sxj045115
+  log_level: dev
+
+# 系统运行
+system:
+  host: "0.0.0.0"
+  port: 8081
+  env: release
+
+# 日志
+logger:
+  level: info
+  prefix: "[webIM]"
+  director: log
+  show_line: true
+  log_in_console: true
+
+#Redis
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+  image: redis
+  container_name: webIM
+  command: redis-server

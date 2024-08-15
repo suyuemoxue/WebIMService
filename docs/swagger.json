@@ -1,0 +1,53 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "contact": {}
+  },
+  "paths": {
+    "/index": {
+      "get": {
+        "tags": [
+          "首页"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/login/login": {
+      "get": {
+        "tags": [
+          "登录"
+        ],
+        "responses": {
+          "200": {
+            "description": "code\",\"message\"}",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/login/register": {
+      "get": {
+        "tags": [
+          "注册"
+        ],
+        "responses": {
+          "200": {
+            "description": "code\",\"message\"}",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
