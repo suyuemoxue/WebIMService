@@ -1,5 +1,5 @@
 ### 基于Gin+Gorm+MySQL+Redis+WebSocket实现类微信即时通讯系统
-### 此项目是后端代码，前端放在https://github.com/suyuemoxue/web-im
+### 此项目是后端代码，前端放在https://github.com/suyuemoxue/WebIMClient
 
 ### go代理
 
